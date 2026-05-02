@@ -26,7 +26,10 @@ export default function Navbar() {
       });
     };
 
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions,
+    );
 
     sections.forEach((id) => {
       const section = document.getElementById(id);
@@ -35,9 +38,12 @@ export default function Navbar() {
 
     // Theme initialization
     const savedTheme = localStorage.getItem("theme");
-    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
+      .matches
+      ? "dark"
+      : "light";
     const initialTheme = savedTheme || systemTheme;
-    
+
     setTheme(initialTheme);
     document.documentElement.classList.toggle("dark", initialTheme === "dark");
 
@@ -55,30 +61,32 @@ export default function Navbar() {
     { name: "Home", href: "#home", id: "home" },
     { name: "Skills", href: "#skills", id: "skills" },
     { name: "Tech", href: "#tech", id: "tech" },
-    { name: "Quals", href: "#quals", id: "quals" },
+    { name: "Qualification", href: "#quals", id: "quals" },
     { name: "Contact", href: "#contact", id: "contact" },
   ];
 
   return (
     <header className="bg-white/90 dark:bg-slate-900/90 backdrop-blur-md fixed top-0 w-full z-50 border-b border-slate-100 dark:border-slate-800 shadow-sm transition-colors duration-300">
       <div className="flex justify-between items-center w-full px-6 py-4 max-w-7xl mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           className="flex items-center gap-3"
         >
           <div className="w-10 h-10 rounded-full overflow-hidden bg-secondary-container">
             <Image
-              src="/profile-nav.png"
-              alt="Himanshu Sahani Profile"
-              width={40}
-              height={40}
+              src="/NavLogo.png"
+              alt="S M Billal Hossain"
+              width={50}
+              height={50}
               className="w-full h-full object-cover"
             />
           </div>
-          <span className="text-xl font-bold tracking-tight text-primary">DevPortfolio</span>
+          <span className="text-xl font-bold tracking-tight text-primary">
+            ProBillal
+          </span>
         </motion.div>
-        
+
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link
@@ -96,7 +104,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <motion.button 
+        <motion.button
           onClick={toggleTheme}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
