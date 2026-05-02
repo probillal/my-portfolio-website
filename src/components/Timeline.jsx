@@ -12,12 +12,6 @@ export default function Timeline() {
         "Leading a team of 5 developers to modernize legacy architecture, resulting in a 40% increase in platform speed.",
     },
     {
-      period: "2012",
-      title: "SSC",
-      company: "Municiple Pripatory High School, Jashore",
-      description: "",
-    },
-    {
       period: "2014",
       title: "HSC",
       company: "Govt M M College, Jashore",
