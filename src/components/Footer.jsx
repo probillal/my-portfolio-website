@@ -9,7 +9,7 @@ export default function Footer() {
         </p>
         <div className="flex gap-8">
           <Link
-            href="www.linkedin.com/in/probillal"
+            href="https://www.linkedin.com/in/probillal"
             prefetch={false}
             scroll={false}
             className="text-slate-500 hover:text-primary hover:underline transition-all font-medium"
@@ -17,7 +17,7 @@ export default function Footer() {
             LinkedIn
           </Link>
           <Link
-            href="#"
+            href="https://github.com/probillal"
             prefetch={false}
             scroll={false}
             className="text-slate-500 hover:text-primary hover:underline transition-all font-medium"

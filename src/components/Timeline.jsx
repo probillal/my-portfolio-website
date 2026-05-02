@@ -17,6 +17,12 @@ export default function Timeline() {
       company: "Municiple Pripatory High School, Jashore",
       description: "",
     },
+    {
+      period: "2014",
+      title: "HSC",
+      company: "Govt M M College, Jashore",
+      description: "",
+    },
   ];
 
   const education = [
