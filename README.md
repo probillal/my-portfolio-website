@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 S M Billal Hossain - Portfolio Website
 
-## Getting Started
+A modern, responsive, and animated personal portfolio website built to showcase my skills, projects, technologies, and developer journey. This portfolio is designed with performance, clean UI, and smooth user experience in mind.
 
-First, run the development server:
+🌐 Live Website: Visit Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📂 GitHub Repository: Open Repository
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📸 Preview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+✨ Features
+⚡ Modern Responsive Design
+🎨 Beautiful UI with Tailwind CSS
+🖥️ Developer Portfolio Layout
+📱 Fully Mobile Friendly
+🌙 Smooth Animations & Interactions
+🚀 Fast Performance with Vite
+📂 Projects Showcase Section
+🧠 Skills & Technologies Section
+📞 Contact Section
+🔗 Social Media Integration
+🌐 Deployed on Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🛠️ Tech Stack
+* Frontend
+* React.js
+* Vite
+* Tailwind CSS
+* JavaScript (ES6+)
+  
+Animation Libraries
+* Framer Motion
+* GSAP
+* Lenis Scroll
 
-## Learn More
+Deployment
+* Vercel
+* 
+📁 Folder Structure
+my-portfolio-website/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   ├── routes/
+│   ├── hooks/
+│   ├── utils/
+│   └── App.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
 
-To learn more about Next.js, take a look at the following resources:
+⚙️ Installation & Setup
+* Clone the repository
+git clone https://github.com/probillal/my-portfolio-website.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🚀 Build for Production
+npm run build
+🌍 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is deployed using Vercel.
 
-## Deploy on Vercel
+Deploy Easily
+npm install -g vercel
+vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📌 Sections Included
+Hero Section
+About Me
+Skills
+Technologies
+Projects
+Experience
+Contact
+Footer
+📱 Responsive Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The website is optimized for:
+
+* Mobile Devices
+* Tablets
+* Laptops
+* Large Screens
+* 
+🎯 Future Improvements
+🌙 Dark/Light Mode Toggle
+📝 Blog Section
+🌐 Multi-language Support
+📊 Admin Dashboard
+📬 Functional Contact Form Backend
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to fork the project and submit a pull request.
+
+📧 Contact
+S M Billal Hossain
+* GitHub: @probillal
+* Portfolio: https://my-portfolio-ashen-omega-ke8mjqpc5n.vercel.app/
+
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+
+Built with ❤️ by S M Billal Hossain 🚀
