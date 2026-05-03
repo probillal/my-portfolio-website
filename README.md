@@ -8,18 +8,18 @@ A modern, responsive, and animated personal portfolio website built to showcase 
 
 📸 Preview
 
-✨ Features
-⚡ Modern Responsive Design
-🎨 Beautiful UI with Tailwind CSS
-🖥️ Developer Portfolio Layout
-📱 Fully Mobile Friendly
-🌙 Smooth Animations & Interactions
-🚀 Fast Performance with Vite
-📂 Projects Showcase Section
-🧠 Skills & Technologies Section
-📞 Contact Section
-🔗 Social Media Integration
-🌐 Deployed on Vercel
+* ✨ Features
+* ⚡ Modern Responsive Design
+* 🎨 Beautiful UI with Tailwind CSS
+* 🖥️ Developer Portfolio Layout
+* 📱 Fully Mobile Friendly
+* 🌙 Smooth Animations & Interactions
+* 🚀 Fast Performance with Vite
+* 📂 Projects Showcase Section
+* 🧠 Skills & Technologies Section
+* 📞 Contact Section
+* 🔗 Social Media Integration
+* 🌐 Deployed on Vercel
 
 🛠️ Tech Stack
 * Frontend
@@ -37,22 +37,22 @@ Deployment
 * Vercel
 * 
 📁 Folder Structure
-my-portfolio-website/
-│
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── layouts/
-│   ├── routes/
-│   ├── hooks/
-│   ├── utils/
-│   └── App.jsx
-│
-├── package.json
-├── vite.config.js
-└── README.md
+* my-portfolio-website/
+* │
+* ├── public/
+* ├── src/
+* │   ├── assets/
+* │   ├── components/
+* │   ├── pages/
+* │   ├── layouts/
+* │   ├── routes/
+* │   ├── hooks/
+* │   ├── utils/
+* │   └── App.jsx
+* │
+* ├── package.json
+* ├── vite.config.js
+* └── README.md
 
 ⚙️ Installation & Setup
 * Clone the repository
@@ -69,14 +69,15 @@ npm install -g vercel
 vercel
 
 📌 Sections Included
-Hero Section
-About Me
-Skills
-Technologies
-Projects
-Experience
-Contact
-Footer
+* Hero Section
+* About Me
+* Skills
+* Technologies
+* Projects
+* Experience
+* Contact
+* Footer
+  
 📱 Responsive Design
 
 The website is optimized for:
@@ -94,9 +95,9 @@ The website is optimized for:
 📬 Functional Contact Form Backend
 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+* Contributions, issues, and feature requests are welcome!
 
-Feel free to fork the project and submit a pull request.
+* Feel free to fork the project and submit a pull request.
 
 📧 Contact
 S M Billal Hossain
